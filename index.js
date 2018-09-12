@@ -25,7 +25,7 @@ function dec(n){
 function makeInt(n){
   return parseInt(n)
   return isNaN === false
-  return n.stringLength > 2 === 0
+  return makeInt(n).length > 2 === 0
 }
 
 function preserveDecimal(n){
