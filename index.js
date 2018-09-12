@@ -27,6 +27,9 @@ function makeInt(n){
   return isNaN === false
 }
 
+it('assumes base 10', function() {
+    expect(makeInt('0x2328')).toEqual(0)
+  })
 function preserveDecimal(n){
   return parseFloat(n)
 }
