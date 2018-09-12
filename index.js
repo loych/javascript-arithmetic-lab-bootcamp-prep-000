@@ -25,6 +25,7 @@ function dec(n){
 function makeInt(n){
   return parseInt(n)
   return isNaN === false
+  return parseFloat(n) ===0
 }
 
 it('assumes base 10', function() {
